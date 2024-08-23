@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendário com horários</title>
+    <link rel="stylesheet" href="styles.css"
+</head>
+<body>
+    <div class="calendar">
+        <div class="header">
+            <div class="day">Segunda-feira</div>
+            <div class="day">Terça-feira</div>
+            <div class="day">Quarta-feira</div>
+            <div class="day">Quinta-feira</div>
+            <div class="day">Sexta-feira</div>
+         </div>
+         <biv class="body">
+            <div class="hour" data-day="Segunda-feira" data-hour="08:00">08:00</div>
+            <div class="hour" data-day="Terça-feira" data-hour="08:00">08:00</div>
+            <div class="hour" data-day="Quarta-feira" data-hour="08:00">08:00</div>
+            <div class="hour" data-day="Quinta-feira" data-hour="08:00">08:00</div>
+            <div class="hour" data-day="Sexta-feira" data-hour="08:00">08:00</div>
+         
+            <!--horários das 17:00-->
+            <div class="hour" data-day="Sexta-feira" data-hour="17:00">17:00</div>
+            <div class="hour" data-day="Sexta-feira" data-hour="17:00">17:00</div>
+            <div class="hour" data-day="Sexta-feira" data-hour="17:00">17:00</div>
+            <div class="hour" data-day="Sexta-feira" data-hour="17:00">17:00</div>
+            <div class="hour" data-day="Sexta-feira" data-hour="17:00">17:00</div>
+         
+        </biv>
+    </div>
+
+    <div class="modal" id="event-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2> Adicionar Evento</h2>
+            <input type="text" id="event-title"
+            <button id="add-event">Adicionar</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
